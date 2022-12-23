@@ -40,7 +40,7 @@ public class ContactApp {
                     count++;
                     break;
                 case 2:
-                    int contactId = Integer.parseInt(promptMessage("Enter contact's id to create: "));
+                    int contactId = Integer.parseInt(promptMessage("Enter contact's id to create:  "));
                     String contactInfo = getContact(contactId);
                     System.out.println(contactInfo);
                     break;
